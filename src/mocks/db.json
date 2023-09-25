@@ -1,0 +1,42 @@
+{
+  "usuarios": [
+    { "id": 1, "nome": "Maria Fernanda", "senha": "123456" },
+    { "id": 2, "nome": "João Gonçalves", "senha": "123456" },
+    { "id": 3, "nome": "Mario Pereira", "senha": "123456" }
+  ],
+  "veiculos": [
+    {
+      "id": 1,
+      "marca": "Volksvagem",
+      "nome": "UP",
+      "ano": "2023",
+      "motor": "1.0",
+      "combustivel": "Flex",
+      "imagem": "imagem up",
+      "cor": "Branca",
+      "quilometragem": 0
+    },
+    {
+      "id": 2,
+      "marca": "Chevrolet",
+      "nome": "Onix",
+      "ano": "2022",
+      "motor": "1.6",
+      "combustivel": "Flex",
+      "imagem": "imagem onix",
+      "cor": "Preta",
+      "quilometragem": 16885
+    },
+    {
+      "id": 3,
+      "marca": "Ford",
+      "nome": "Fiesta",
+      "ano": "2020",
+      "motor": "1.0",
+      "combustivel": "Flex",
+      "imagem": "imagem Fiesta",
+      "cor": "Prata",
+      "quilometragem": 25882
+    }
+  ]
+}

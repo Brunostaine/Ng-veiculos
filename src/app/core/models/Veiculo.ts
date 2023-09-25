@@ -5,7 +5,7 @@ export interface Veiculo {
   ano: string;
   motor: string;
   combustivel: string;
-  imagem: string; // TODO - Criar um Array
+  imagem: Array<string>; // TODO - Criar um Array
   cor: string;
-  quilometragem: string;
+  quilometragem: number;
 }
