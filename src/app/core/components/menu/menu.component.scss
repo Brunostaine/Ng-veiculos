@@ -1,0 +1,61 @@
+.mat-toolbar {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+
+  img {
+    border-radius: 50%;
+    grid-column: 2;
+  }
+}
+
+.icon {
+  display: none;
+  grid-column: 1;
+}
+
+.img {
+  width: 50px;
+  justify-self: center;
+}
+
+.lista {
+  display: flex;
+  justify-self: end;
+
+  li {
+    margin-right: 16px;
+    list-style: none;
+    grid-column: 4;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+
+.drawer {
+  width: 260px;
+
+  button {
+    width: 100%;
+  }
+}
+
+.app {
+  height: calc(100vh - 64px);
+  background-color: #FAFAFA;
+}
+
+@media (max-width: 768px) {
+  .lista {
+    display: none;
+  }
+  .icon {
+    display: flex;
+  }
+
+  .img {
+    width: 40px;
+  }
+}

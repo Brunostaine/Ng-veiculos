@@ -1,0 +1,26 @@
+<mat-toolbar color="primary" class="mat-toolbar">
+  <button (click)="drawer.toggle()" class="icon" mat-icon-button>
+    <mat-icon>menu</mat-icon>
+  </button>
+  <img
+    class="img"
+    src="https://cdn.create.vista.com/api/media/small/388932858/stock-vector-vector-car-icon-your-project"
+    alt=""
+  />
+  <ul class="lista">
+    <li><a routerLink="/">Entrar</a></li>
+  </ul>
+</mat-toolbar>
+
+<mat-drawer-container autosize>
+  <mat-drawer class="drawer" #drawer opened="false" mode="over">
+    <mat-nav-list>
+      <mat-list-item>
+        <button mat-button><mat-icon>dashboard</mat-icon> Entrar</button>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content class="app">
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
