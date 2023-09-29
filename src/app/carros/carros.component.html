@@ -1,6 +1,6 @@
 
 <div class="container-veiculo">
-  <mat-card class="card" *ngFor="let veiculo of veiculos">
+  <mat-card class="card" *ngFor="let veiculo of veiculos" routerLink="/estoque/{{veiculo.id}}">
     <mat-card-header>
       <mat-card-title class="titulo">{{ veiculo.nome }}</mat-card-title>
     </mat-card-header>

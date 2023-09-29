@@ -1,0 +1,26 @@
+<div class="container-veiculo">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title class="titulo"
+        >{{ veiculo?.marca }} {{ veiculo?.nome }} {{ veiculo?.ano }}
+        {{ veiculo?.motor }} {{ veiculo?.combustivel }}</mat-card-title
+      >
+    </mat-card-header>
+    <mat-card-content>
+      <img class="img" src="{{ veiculo?.imagem }}" alt="" />
+
+      <ul class="lista">
+        <li><span>Marca:</span> {{ veiculo?.marca }}</li>
+        <li><span>Cor:</span> {{ veiculo?.cor }}</li>
+        <li><span>Ano:</span> {{ veiculo?.ano }}</li>
+        <li><span>Quilometragem:</span> {{ veiculo?.quilometragem }} KM</li>
+        <li><span>Motor:</span> {{ veiculo?.motor }}</li>
+        <li><span>Combustível:</span> {{ veiculo?.combustivel }}</li>
+        <li><span>Opcionais:</span> {{ veiculo?.opcionais }}</li>
+      </ul>
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="btn" mat-button (click)="voltar()">Voltar</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -8,4 +8,5 @@ export interface Veiculo {
   imagem: string;
   cor: string;
   quilometragem: number;
+  opcionais: Array<string>
 }

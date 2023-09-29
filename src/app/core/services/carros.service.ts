@@ -16,4 +16,8 @@ export class CarrosService {
     .pipe(tap((carros) => {}));
     return veiculo;
   }
+
+  buscarCarro(id: number):Observable<Veiculo> {
+    return this.http.get<Veiculo>(`${this.urlCarros}/${id}`)
+  }
 }

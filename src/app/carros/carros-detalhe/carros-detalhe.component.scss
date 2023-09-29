@@ -1,0 +1,35 @@
+.container-veiculo {
+  padding: 16px;
+}
+
+.titulo {
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 4px;
+}
+
+.lista {
+  list-style: none;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.btn {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .container-veiculo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+}
