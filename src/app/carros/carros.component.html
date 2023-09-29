@@ -1,0 +1,28 @@
+<div class="container-veiculo">
+  <mat-card class="card" *ngFor="let veiculo of veiculos">
+    <mat-card-header>
+      <mat-card-title>{{ veiculo.nome }}</mat-card-title>
+    </mat-card-header>
+    <img
+      class="imagem-veiculo"
+      mat-card-image
+      src="{{ veiculo.imagem }}"
+      alt="{{ veiculo.nome }}"
+    />
+    <mat-card-content>
+      <ul class="lista">
+        <li><span>Marca:</span> {{ veiculo.marca }}</li>
+        <li><span>Cor:</span> {{ veiculo.cor }}</li>
+        <li><span>Ano:</span> {{ veiculo.ano }}</li>
+        <li><span>Quilometragem:</span> {{ veiculo.quilometragem }} KM</li>
+        <li><span>Motor:</span> {{ veiculo.motor }}</li>
+        <li><span>Combustível:</span> {{ veiculo.combustivel }}</li>
+      </ul>
+    </mat-card-content>
+    <mat-card-actions>
+      <button  mat-fab color="accent" aria-label="Entrar em contato">
+        <mat-icon>phone</mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

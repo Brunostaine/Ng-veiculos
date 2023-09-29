@@ -1,0 +1,51 @@
+.container-veiculo {
+  padding: 16px;
+}
+
+.card {
+  margin: 16px;
+  cursor: pointer;
+}
+
+.imagem-veiculo {
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 2px #222;
+  margin: 16px;
+}
+
+.lista {
+  list-style: none;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-veiculo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .card {
+    grid-column: auto auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-veiculo {
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-veiculo {
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card {
+    max-width: 400px;
+  }
+}

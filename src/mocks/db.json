@@ -12,7 +12,7 @@
       "ano": "2023",
       "motor": "1.0",
       "combustivel": "Flex",
-      "imagem": "imagem up",
+      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
       "cor": "Branca",
       "quilometragem": 0
     },
@@ -23,7 +23,7 @@
       "ano": "2022",
       "motor": "1.6",
       "combustivel": "Flex",
-      "imagem": "imagem onix",
+      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
       "cor": "Preta",
       "quilometragem": 16885
     },
@@ -34,7 +34,62 @@
       "ano": "2020",
       "motor": "1.0",
       "combustivel": "Flex",
-      "imagem": "imagem Fiesta",
+      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
+      "cor": "Prata",
+      "quilometragem": 25882
+    },
+    {
+      "id": 4,
+      "marca": "Ford",
+      "nome": "Fiesta",
+      "ano": "2020",
+      "motor": "1.0",
+      "combustivel": "Flex",
+      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
+      "cor": "Prata",
+      "quilometragem": 25882
+    },
+    {
+      "id": 5,
+      "marca": "Ford",
+      "nome": "Fiesta",
+      "ano": "2020",
+      "motor": "1.0",
+      "combustivel": "Flex",
+      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
+      "cor": "Prata",
+      "quilometragem": 25882
+    },
+    {
+      "id": 6,
+      "marca": "Ford",
+      "nome": "Fiesta",
+      "ano": "2020",
+      "motor": "1.0",
+      "combustivel": "Flex",
+      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
+      "cor": "Prata",
+      "quilometragem": 25882
+    },
+    {
+      "id": 7,
+      "marca": "Ford",
+      "nome": "Fiesta",
+      "ano": "2020",
+      "motor": "1.0",
+      "combustivel": "Flex",
+      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
+      "cor": "Prata",
+      "quilometragem": 25882
+    },
+    {
+      "id": 8,
+      "marca": "Ford",
+      "nome": "Fiesta",
+      "ano": "2020",
+      "motor": "1.0",
+      "combustivel": "Flex",
+      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
       "cor": "Prata",
       "quilometragem": 25882
     }
