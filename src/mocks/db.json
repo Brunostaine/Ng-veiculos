@@ -13,7 +13,7 @@
       "motor": "1.0",
       "combustivel": "Flex",
       "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
-      "cor": "Branca",
+      "cor": "Azul",
       "quilometragem": 0
     },
     {
@@ -23,7 +23,7 @@
       "ano": "2022",
       "motor": "1.6",
       "combustivel": "Flex",
-      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
+      "imagem": "https://s2-autoesporte.glbimg.com/o0iR9GDSDE7LqvUDlX2GoAPqR_k=/0x0:1980x1286/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2022/M/1/QYiGAZQSqGjknzpVXFLw/chevrolet-onix-22.jpeg",
       "cor": "Preta",
       "quilometragem": 16885
     },
@@ -34,64 +34,64 @@
       "ano": "2020",
       "motor": "1.0",
       "combustivel": "Flex",
-      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
+      "imagem": "https://s2-autoesporte.glbimg.com/85CxwJU6FIkFBlwzkyXNFXXwLIA=/0x0:620x413/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/c/M/MAT1jSSymffPHqtlJH3Q/2018-04-19-new-fiesta-ecoboost-style-exterior-11.jpg",
       "cor": "Prata",
       "quilometragem": 25882
     },
     {
       "id": 4,
-      "marca": "Ford",
-      "nome": "Fiesta",
-      "ano": "2020",
+      "marca": "Fiat",
+      "nome": "Argo",
+      "ano": "2023",
       "motor": "1.0",
       "combustivel": "Flex",
-      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
-      "cor": "Prata",
-      "quilometragem": 25882
+      "imagem": "https://t.ctcdn.com.br/HmkHi2bataVFfBo12SNaLsH97jo=/1200x675/smart/i523842.jpeg",
+      "cor": "Branca",
+      "quilometragem": 0
     },
     {
       "id": 5,
-      "marca": "Ford",
-      "nome": "Fiesta",
-      "ano": "2020",
-      "motor": "1.0",
+      "marca": "Volksvagem",
+      "nome": "Taos",
+      "ano": "2023",
+      "motor": "2.0",
       "combustivel": "Flex",
-      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
-      "cor": "Prata",
-      "quilometragem": 25882
+      "imagem": "https://reviewauto.com.br/wp-content/uploads/2022/05/Volkswagen-Taos.jpg",
+      "cor": "Bronze",
+      "quilometragem": 0
     },
     {
       "id": 6,
-      "marca": "Ford",
-      "nome": "Fiesta",
-      "ano": "2020",
-      "motor": "1.0",
+      "marca": "Hyunday",
+      "nome": "Hb20",
+      "ano": "2022",
+      "motor": "1.6",
       "combustivel": "Flex",
-      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
-      "cor": "Prata",
-      "quilometragem": 25882
+      "imagem": "https://garagem360.com.br/wp-content/uploads/2022/05/cq5dam.web_.1280.1280.jpeg",
+      "cor": "Cinza",
+      "quilometragem": 2000
     },
     {
       "id": 7,
-      "marca": "Ford",
-      "nome": "Fiesta",
-      "ano": "2020",
-      "motor": "1.0",
+      "marca": "Toyota",
+      "nome": "Corolla",
+      "ano": "2023",
+      "motor": "2.0",
       "combustivel": "Flex",
-      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
-      "cor": "Prata",
-      "quilometragem": 25882
+      "imagem": "https://www.clubmotor.com.br/wp-content/uploads/2023/06/Corolla-GLi-2023.jpg",
+      "cor": "Branca",
+      "quilometragem": 0
     },
     {
       "id": 8,
-      "marca": "Ford",
-      "nome": "Fiesta",
-      "ano": "2020",
-      "motor": "1.0",
+      "marca": "Nissan",
+      "nome": "Kicks",
+      "ano": "2023",
+      "motor": "2.0",
       "combustivel": "Flex",
-      "imagem": "https://www.comprecar.com.br/storage/news/featured/4bP_NjPrvNS2_h7.jpg",
+      "imagem": "https://www.infomoney.com.br/wp-content/uploads/2019/06/nissan-kicks.jpg?resize=900%2C515&quality=50&strip=all",
       "cor": "Prata",
-      "quilometragem": 25882
+      "quilometragem": 0
     }
   ]
 }

@@ -1,7 +1,8 @@
+
 <div class="container-veiculo">
   <mat-card class="card" *ngFor="let veiculo of veiculos">
     <mat-card-header>
-      <mat-card-title>{{ veiculo.nome }}</mat-card-title>
+      <mat-card-title class="titulo">{{ veiculo.nome }}</mat-card-title>
     </mat-card-header>
     <img
       class="imagem-veiculo"
@@ -23,6 +24,7 @@
       <button  mat-fab color="accent" aria-label="Entrar em contato">
         <mat-icon>phone</mat-icon>
       </button>
+      <a class="link" href="">Mais informações...</a>
     </mat-card-actions>
   </mat-card>
 </div>

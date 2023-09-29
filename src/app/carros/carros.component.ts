@@ -8,8 +8,7 @@ import { Veiculo } from '../core/models/Veiculo';
   styleUrls: ['./carros.component.scss'],
 })
 export class CarrosComponent implements OnInit {
-
-  veiculos: Veiculo[] = []
+  veiculos: Veiculo[] = [];
 
   constructor(private carrosService: CarrosService) {}
 
@@ -19,7 +18,9 @@ export class CarrosComponent implements OnInit {
 
   buscarCarros(): void {
     this.carrosService.buscarCarros().subscribe((carros) => {
-      this.veiculos = carros
+      this.veiculos = carros;
     });
   }
+
+  pesquisar(): void {}
 }
